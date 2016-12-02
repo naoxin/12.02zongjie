@@ -1,0 +1,21 @@
+
+public class Xian{
+//其中线程就是一个主线程
+	public static void main(String[] args) {
+		Cheng c=new Cheng();
+		c.run();
+		for (int i = 0; i < 20; i++) {
+			System.out.println("主-------------"+i);
+		}
+	}
+	
+}
+class Cheng extends Thread{
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+		for (int i = 0; i < 20; i++) {
+			System.out.println("子---------"+i);
+		}
+	}
+}

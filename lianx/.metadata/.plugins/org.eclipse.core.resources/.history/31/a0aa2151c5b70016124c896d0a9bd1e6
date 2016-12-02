@@ -1,0 +1,13 @@
+
+public class Runb {
+
+	public static void main(String[] args) {
+		new Runnable() {
+			public void run() {
+				for (int i = 0; i < 15; i++) {
+					System.out.println("ÀûÓÃrunable"+i);
+				}
+			}
+		};
+	}
+}

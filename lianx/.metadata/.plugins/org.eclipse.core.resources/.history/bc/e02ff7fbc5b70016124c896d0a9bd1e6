@@ -1,0 +1,14 @@
+
+public class Runb implements Runnable{
+
+	public static void main(String[] args) {
+		new Thread(r).start();
+		
+	}
+	public void run() {
+		for (int i = 0; i < 15; i++) {
+			System.out.println("ÀûÓÃrunable"+i);
+		}
+	}
+	
+}

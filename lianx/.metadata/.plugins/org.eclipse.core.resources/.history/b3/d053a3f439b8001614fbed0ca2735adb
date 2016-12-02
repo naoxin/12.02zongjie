@@ -1,0 +1,17 @@
+package xian2;
+
+public class Zhu {
+	public static void main(String[] args) {
+		Xian x=new Xian();
+		Thread thread=new Thread(x);
+		thread.setName("东东第一天卖了");
+		thread.start();
+		Thread thread=new Thread(x);
+		thread.setName("东东第一天卖了");
+		thread.start();
+		Thread thread=new Thread(x);
+		thread.setName("东东第一天卖了");
+		thread.start();
+	}
+
+}
